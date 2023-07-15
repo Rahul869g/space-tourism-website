@@ -1,12 +1,12 @@
 import { useState } from "react";
-import "./App.css";
+
 import Nav from "./components/Nav";
 import Homepage from "./pages/Homepage";
 import Destination from "./pages/Destination";
 import Crew from "./pages/Crew";
 import Technology from "./pages/Technology";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 
 const App = () => {
   return (
