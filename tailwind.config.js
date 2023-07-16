@@ -4,30 +4,34 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "home-xs": "url('/assets/home/background-home-mobile.jpg')",
-        "home-sm": "url('/assets/home/background-home-tablet.jpg')",
-        "home-md": "url('/assets/home/background-home-desktop.jpg')",
+        "home-xs": "url('src/assets/home/background-home-mobile.jpg')",
+        "home-sm": "url('src/assets/home/background-home-tablet.jpg')",
+        "home-md": "url('src/assets/home/background-home-desktop.jpg')",
         "destination-xs":
-          "url('/assets/destination/background-destination-mobile.jpg')",
+          "url('src/assets/destination/background-destination-mobile.jpg')",
         "destination-sm":
-          "url('/assets/destination/background-destination-tablet.jpg')",
+          "url('src/assets/destination/background-destination-tablet.jpg')",
         "destination-md":
-          "url('/assets/destination/background-destination-desktop.jpg')",
-        "crew-xs": "url('/assets/crew/background-crew-mobile.jpg')",
-        "crew-sm": "url('/assets/crew/background-crew-tablet.jpg')",
-        "crew-md": "url('/assets/crew/background-crew-desktop.jpg')",
+          "url('src/assets/destination/background-destination-desktop.jpg')",
+        "crew-xs": "url('src/assets/crew/background-crew-mobile.jpg')",
+        "crew-sm": "url('src/assets/crew/background-crew-tablet.jpg')",
+        "crew-md": "url('src/assets/crew/background-crew-desktop.jpg')",
         "technology-xs":
-          "url('/assets/technology/background-technology-mobile.jpg')",
+          "url('src/assets/technology/background-technology-mobile.jpg')",
         "technology-sm":
-          "url('/assets/technology/background-technology-tablet.jpg')",
+          "url('src/assets/technology/background-technology-tablet.jpg')",
         "technology-md":
-          "url('/assets/technology/background-technology-desktop.jpg')",
-      },
-    },
+          "url('src/assets/technology/background-technology-desktop.jpg')"
+      }
+    }
+  },
+  colors: {
+    "main-white": "#E5E7DC",
+    "white-opacity": "rgba(255, 255, 255, 0.1)"
   },
   fontFamily: {
     barlow: ["Barlow Condensed", "sans-serif"],
-    bellefair: ["Bellefair", "serif"],
+    bellefair: ["Bellefair", "serif"]
   },
-  plugins: [],
+  plugins: []
 };

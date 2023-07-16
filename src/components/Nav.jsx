@@ -20,7 +20,7 @@ const Nav = () => {
   return (
     <div
       className="absolute top-0 left-0 w-full flex justify-between items-center p-5 z-10
-          lg:top-6 lg:px-10"
+          lg:top-6 lg:px-10 font-[barlow]"
     >
       <img
         src="../src/assets/shared/logo.svg"
